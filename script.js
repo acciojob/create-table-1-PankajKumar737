@@ -1,6 +1,6 @@
 function insert_Row() {
     //Write your code here
-	let table = document.getElementBuId("sampleTable");
+	let table = document.getElementById("sampleTable");
 
   let row = table.insertRow(0);
   let cell1 = row.insertCell(0);
